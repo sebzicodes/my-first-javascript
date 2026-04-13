@@ -1,13 +1,13 @@
-const subtract = require("../src/subtract");
+const multiply = require("../src/multiply");
 
-describe("subtract", () => {
-  test("subtracts 5 - 3 to equal 2", () => {
-    expect(subtract(5, 3)).toBe(2);
+describe("multiply", () => {
+  test("multiply 5 * 3 to equal 25", () => {
+    expect(multiply(5, 5)).toBe(25);
   });
-  test("subtracts 100 - 1 to equal 99", () => {
-    expect(subtract(100, 1)).toBe(99);
+  test("multiply 5 * 100 to equal 500", () => {
+    expect(multiply(5, 100)).toBe(500);
   });
-  test("subtracts 45 - 5 to equal 40", () => {
-    expect(subtract(45, 5)).toBe(40);
+  test("multiply 6 * 3 to equal 18", () => {
+    expect(multiply(6, 3)).toBe(18);
   });
 });
