@@ -1,0 +1,23 @@
+{
+  "name": "my-first-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sebzicodes/my-first-javascript#readme",
+  "bugs": {
+    "url": "https://github.com/sebzicodes/my-first-javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebzicodes/my-first-javascript.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "addition.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
