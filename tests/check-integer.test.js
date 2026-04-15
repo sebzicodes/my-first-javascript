@@ -1,5 +1,5 @@
 const checkInteger = require("../src/check-integer");
-describe("checkinteger", () => {
+describe("checkInteger", () => {
     test("returns true for whole numbers", () => {
         expect(checkInteger(500)).toBe(true);
     })
