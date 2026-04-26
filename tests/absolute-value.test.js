@@ -8,5 +8,5 @@ describe("getAbsolute", () => {
     });
     test("returns 0 for 0", () => {
         expect(getAbsolute(0)).toBe(0);
-    })
+    });
 });
