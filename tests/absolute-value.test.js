@@ -1,4 +1,4 @@
-const getAbsolute = require("../src/getAbsolute");
+const getAbsolute = require("../src/absolute-value");
 describe("getAbsolute", () => {
     test("converts a negative number to a positive", () => {
         expect(getAbsolute(-5)).toBe(5);
