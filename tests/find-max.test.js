@@ -7,6 +7,6 @@ describe("findMax", () => {
         expect(findMax([-10, -5, -2, -8])).toBe(-2);
     });
     test("returns null for empty array", () => {
-        expect(findMax([""])).toBe(null);
+        expect(findMax([])).toBe(null);
     });
 });
