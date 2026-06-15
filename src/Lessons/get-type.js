@@ -1,10 +1,11 @@
 module.exports = function getType(value) {
-    if(value === []) {
-        return console.log(object);
+    if(Array.isArray(value)) {
+        return "array";
     }
+    const type = typeof value;
     if(value === null) {
-        return console.log(null);
+        return "null";
     }
-    const type = value.typeof;
-    return type;
+    
+    else return type;
 };

@@ -1,4 +1,4 @@
-const getType = require("../src/get-type");
+const getType = require("../src/lessons/get-type");
 describe("get-type", () => {
     test("gets type of an object", () => {
         expect(getType({})).toBe("object");
