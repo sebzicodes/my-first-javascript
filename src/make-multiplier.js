@@ -1,3 +1,6 @@
-module.exports = function makeMultipler(value) {
-    const 
-}
+module.exports = function makeMultipler(num1) {
+    return function(num2) {
+        return num1 * num2;
+    };
+    
+};
